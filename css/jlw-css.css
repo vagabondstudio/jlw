@@ -1,0 +1,249 @@
+/***************BASE STYLES************/
+
+body {
+  font-family: 'Gochi Hand', cursive;
+}
+#home, #work, #about, #contact {
+  height: 800px;
+}
+/*****************NAVBAR***************/
+
+#navbar li
+{
+display: inline;
+list-style-type: none;
+padding-top: 0px;
+padding-right: 20px;
+}
+
+nav ul {
+  font-family: 'Megrim', cursive;
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: center;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+/***************GRID***********/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/***************HEADER*****************/
+
+#home {
+background-image: url('../img/header-background.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+#home h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 140pt;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 140px;
+  margin: 0 0;
+}
+#home h2 {
+  font-family: 'Stalemate', cursive;
+  font-size: 50pt;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0 0;
+  padding-top: 0px;
+}
+#home img {
+  padding-left: 530px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#headericons ul {
+  list-style: none;
+  padding-left: 480px;
+  padding-top: 0px;
+}
+#headericons ul li {
+  display: inline-block;
+}
+#headericons ul img {
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 0px;
+}
+/*****************WORK******************/
+#work {
+  background-color: #182130;
+}
+#work h2 {
+  font-family: 'Stalemate', cursive;
+  font-size: 60pt;
+  font-weight: bold;
+  text-align: center;
+  color: #fea68d;
+  margin: 0 0;
+}
+#designskills ul {
+  text-decoration: none;
+  margin: 0 0;
+  padding-left: 80px;
+}
+#designskills li {
+  list-style-type: none;
+}
+#designskills img {
+  float:left;
+}
+
+#codeskills ul {
+  text-decoration: none;
+  margin: 0 0;
+  padding-right: 110px;
+}
+#codeskills li {
+  list-style-type: none;
+}
+#codeskills img {
+  float: right;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+img {
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#examplepictures img {
+  float:none;
+  clear:both;
+  padding-left: 70px;
+}
+
+h3 {
+  font-family: 'Stalemate', cursive;
+  font-size: 45pt;
+  text-align: center;
+  color: #fea68d;
+  padding-top: 50px;
+  margin: 0 0;
+}
+
+p {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 22pt;
+  line-height: 35pt;
+  color: white;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 0;
+}
+ #vs h3 {
+   padding-top: 85px;
+ }
+ #ar h3 {
+   padding-top: 20px;
+ }
+
+/***************ABOUT*************/
+#about {
+  background: url('../img/wheat-photo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#about p {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 24pt;
+  line-height: 40pt;
+  color: white;
+}
+#headshot {
+padding-left: 500px;
+}
+/***************CONTACT***********/
+#contact {
+  background-color: black;
+}
+#contact .half-width {
+  width: 40vw;
+}
+#mailbox-img {
+  padding: 150px 50px;
+}
+#contact h4 {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  clear: both;
+  text-decoration: none;
+}
+#copyright a {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  clear: both;
+  text-decoration: none;
+}
+#contactinfo h3 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 42pt;
+  color: #fea68d;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: none;
+}
+#contactinfo span {
+  color: white;
+  text-decoration: none;
+}
+#contactinfo a {
+  text-decoration: none;
+}
+#mailboxes {
+  width: 600px;
+}
+#contactinfo {
+  width: 600px;
+  float: right;
+}
+#logo-footer {
+  padding-left: 200px;
+  padding-bottom: 0;
+}
+/**********SOCIALS-FOOTER*********/
+
+#contactinfo ul {
+    list-style: none;
+    padding-left: 190px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#contactinfo ul li {
+     display: inline-block;
+}
+#contactinfo ul img {
+    padding-right: 10px;
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
