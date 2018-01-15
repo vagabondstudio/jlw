@@ -27,6 +27,10 @@ li a {
   color: white;
 }
 
+<style>
+a:hover {color: #2e3192;}
+</style>
+
 /***************GRID***********/
 
 .full-width {
@@ -196,6 +200,10 @@ padding-left: 500px;
   clear: both;
   text-decoration: none;
 }
+<style>
+#contact a:hover {color: #2e3192;}
+</style>
+
 #copyright a {
   font-family: 'Gochi Hand', cursive;
   color: white;
@@ -219,6 +227,10 @@ padding-left: 500px;
 #contactinfo a {
   text-decoration: none;
 }
+<style>
+#contactinfo span:hover {color: #2e3192;}
+</style>
+
 #mailboxes {
   width: 600px;
 }
