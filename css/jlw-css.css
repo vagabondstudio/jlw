@@ -76,6 +76,7 @@ background-color: black;
   padding-bottom: 0px;
   padding-top: 0px;
 }
+#logohomepage img:hover {border: 1px solid transparent}
 
 #headericons ul {
   list-style: none;
@@ -90,6 +91,7 @@ background-color: black;
   padding-right: 10px;
   padding-top: 0px;
 }
+#headericons img:hover {border: 1px solid transparent}
 /*****************WORK******************/
 #work {
   background-color: #182130;
@@ -138,6 +140,7 @@ img {
   clear:both;
   padding-left: 70px;
 }
+
 
 h3 {
   font-family: 'Stalemate', cursive;
@@ -257,3 +260,4 @@ padding-left: 500px;
     padding-bottom: 0px;
     padding-top: 0px;
 }
+#contactinfo img:hover {border: 1px solid transparent}
